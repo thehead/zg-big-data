@@ -1,28 +1,7 @@
 <template>
   <div class="app-container">
     <div class="background" :style="backgroundStyle">
-      <header class="header">
-        <h1 class="title">自贡城市信息模型平台</h1>
-        <div class="nav-top">
-          <span>城市运行</span>
-          <span>经济运行</span>
-          <span>交通运行</span>
-        </div>
-        <div class="header-right">
-          <span class="weather">28°</span>
-          <span class="battery">20%</span>
-        </div>
-      </header>
-      
       <router-view></router-view>
-
-      <footer class="footer-nav">
-        <div class="nav-item">土地规划</div>
-        <div class="nav-item">规划范围</div>
-        <div class="nav-item">产业用地</div>
-        <div class="nav-item">总体规划</div>
-        <div class="nav-item">专题查控</div>
-      </footer>
     </div>
   </div>
 </template>
